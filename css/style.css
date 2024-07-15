@@ -2,7 +2,7 @@ body {
     font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('assets/bmi_percentile_22dc67660f.png');
+    background-image: url('{{ site.baseurl }}/assets/bmi_percentile_22dc67660f.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
