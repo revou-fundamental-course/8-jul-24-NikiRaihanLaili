@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <h3>Calculator BMI</h3>
+    </header>
+
+    <!-- main content form dan hasil -->
+    <section class="main-content center">
+        <!-- BMI form -->
+        <form class="bmi-form">
+            <div class="bmi-gender form-group">
+                <label for="gender">Jenis Kelamin</label><p>
+                <input type="radio" id="man" name="gender" value="man">
+                <label for="man">Pria</label>
+                <input type="radio" id="woman" name="gender" value="woman">
+                <label for="woman">Wanita</label> 
+            </div>
+            
+            <!-- form input untuk berat badan -->
+            <div class="form-group">
+                <label class="form-label">Berat Badan (kg)</label>
+                <div class="form-input-wrapper">
+                    <input type="text" class="form-input" name="weight">
+                </div>
+            </div>
+    
+            <!-- form input untuk umur -->
+            <div class="form-group">
+                <label class="form-label">Umur (tahun)</label>
+                <div class="form-input-wrapper">
+                    <input type="text" class="form-input" name="age">
+                </div>
+            </div>
+            
+            <!-- form input untuk tinggi badan -->
+            <div class="form-group">
+                <label class="form-label">Tinggi Badan (cm)</label>
+                <div class="form-input-wrapper">
+                    <input type="text" class="form-input" name="height">
+                </div>
+            </div>
+            
+            <!-- tombol cek BMI dan reset -->
+            <div class="form-group">
+                <button type="submit" class="t_cek">Cek BMI</button>
+                <button type="reset" class="t_clear">Clear</button>
+            </div>
+        </form>
+
+        <!-- hasil yang tersembunyi -->
+        <div class="result hidden"></div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p>by NikiRaihanLaili</p>
+    </footer>
+
+    <!-- link external ke js -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>

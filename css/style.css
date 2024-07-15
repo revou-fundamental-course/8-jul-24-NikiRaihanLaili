@@ -1,0 +1,123 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/bmi_percentile_22dc67660f.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;  
+    color: black;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    /* max-width: 1200px; */
+}
+
+.main-content.center {
+    justify-content: center;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 45%;
+    max-width: 500px;
+    margin: 0 10px;
+}
+
+.bmi-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #3f3f46;
+    margin-bottom: 8px;
+}
+
+.form-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.form-input {
+    width: 93%;
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #f3f4f6;
+}
+
+.t_cek {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.t_clear {
+    background-color: #d1d5db;
+    color: #3f3f46;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.result {
+    padding: 20px;
+    background-color: #4CAF50; /* warna hijau */
+    color: white;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-left: 20px;
+    text-align: center;
+    width: 45%;
+    height: 250px;
+    max-width: 500px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
